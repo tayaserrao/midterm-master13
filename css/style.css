@@ -1,0 +1,428 @@
+
+/* html5 reset css file */
+@import url('html5reset.css');
+/* html5 reset css file */
+
+
+/* standard css for desktop browsers */
+body {
+	/*background-image:url(https://media.giphy.com/media/12ffdI8DuUi2RO/giphy.gif);*/
+	background-image: url(https://media.giphy.com/media/qajXB8w1cnVOo/giphy.gif);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#css-zen-garden header{
+	display: flex;
+	flex-direction: column;
+
+}
+#css-zen-garden .page-wrapper{
+display: flex;
+	flex-direction: column;
+
+}
+
+
+
+.summary {
+	display: flex;
+	flex-direction: column;
+
+
+	margin: auto;
+	margin-bottom: 100px;
+color: orange;
+		font-size: 1.3em;
+		font-family: Verdana;
+		padding: 1px 1px 1px 1px;
+		letter-spacing: 15px;
+		color: white;
+
+		margin-top: 0px;
+}
+
+.preamble {
+	display: flex;
+	flex-direction: column;
+
+	height: 700px;
+	margin: auto;
+	margin-bottom: 150px;
+	font-family: Verdana;
+	font-size: 1.1em;
+	color: white;
+	letter-spacing: 10px;
+}
+
+.preamble h3 {
+	color: white;
+	padding-bottom: 20px;
+	letter-spacing: 15px;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+
+/*div p{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+width: 700px;
+	height: 200px;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 1 em;
+	color: white;
+	background: rgba(255, 255, 255,0.2);
+
+
+
+div h3{
+	width: 700px;
+	height: 50px;
+	margin: auto;
+	font-size: 1.5em;
+}*/
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+	margin: auto;
+	flex-grow: 1;
+}
+
+ h1{
+	font-family: verdana;
+	font-size: 6em;
+	background-image: url(https://media.giphy.com/media/12ffdI8DuUi2RO/giphy.gif);
+background-repeat: repeat;
+background-position: 50% 50%;
+background-size: cover;
+	text-align: center;
+
+	color: black;
+	letter-spacing: 10px;
+	height: 450px;
+	border: 2px solid black;
+	padding: 5px 2px 2px 5px;
+	margin: 5px 2px 2px 5px;
+}
+
+
+
+.intro h2 {
+
+	color: #80aaff;
+	background-color: black;
+	font-size: 1.2em;
+	line-height: 40px;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	justify-content: center;
+align-content: center;
+    text-decoration: none;
+font-family: Verdana;
+letter-spacing: 20px;
+margin: 20px 100px 10px 40px;
+padding: 1px 10px 10px 10px;
+border: 3px solid black;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background-image: url(http://earth.imagico.de/views/niran1_large.jpg);
+}
+/*background-size: cover;
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;*/
+
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	background-image: url(http://orig10.deviantart.net/3663/f/2009/309/b/f/black_red_gradient_by_halaxega.png);
+
+	/*border: 1px solid black;
+	order: 1;
+	height: 4000px;
+	width:800px;*/
+}
+div .explanation{
+	height:
+	width:
+	border:1px solid black;
+	color: white;
+	order: 1;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	font-family: Verdana;
+
+}
+
+div .participation{
+	height:
+	width:
+	border:1px solid black;
+	color: white;
+	order: 2;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	font-family: Verdana;
+	margin-top: 100px;
+
+}
+div .benefits{
+	height:
+	width:
+	border:1px solid black;
+	color: white;
+	order: 3;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	font-family: Verdana;
+	margin-top: 100px;
+
+}
+div .requirements{
+	height: 700px
+	width:
+	border:1px solid black;
+	color: white;
+	order: 4;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+  flex-wrap: wrap;
+	font-family: Verdana;
+	margin-top: 100px;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: black;
+	align-content: center;
+	height: 120px;
+}
+
+.zen-validate-html {
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	background-color: #ffbf80;
+
+}
+
+
+.zen-validate-css{
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	color: white;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	background-color: #ffbf80;
+	}
+
+.zen-license{
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	color: white;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	background-color: #ffbf80;
+}
+
+.zen-accessibility{
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	color: white;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	background-color: #ffbf80;
+}
+
+.zen-github{
+	border: 1px solid black;
+	height: 50px;
+	width: 80px;
+	color: white;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.5em;
+	letter-spacing: 5px;
+	background-color: #ffbf80;
+}
+
+ul{
+
+	border:
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+display: flex;
+text-decoration: none;
+	list-style-type: none;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	}
+
+.design-name{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	background-color: #ffbf80;
+}
+
+.designer-name{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+
+
+
+li {
+height: 200px;
+width: 200px;
+	border: 1px solid black;
+background-image: url(http://www.photographyontherun.com/content/binary/Gradient1080243b.jpg);
+	text-decoration: none;
+	font-family: Verdana;
+	color: black;
+	font-size: 1em;
+	padding: 10px;
+	background-position: center;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+
+
+}
+
+
+
+h3{
+	font-family: Verdana;
+	font-size: 1.6em;
+	color: red;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: auto;
+	letter-spacing: 20px;
+}
+
+.wrapper h3{
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 100px;
+	background-color: black;
+}
+
+section header {
+
+}
+
+
+
+}
+/* override css for mobile browsers */
+@media all and (min-width:320px) and (max-width:400px) {
+	body {
+		font-size:1em;
+		background-color:orange;
+	}
+	aside {
+		float: right;
+		width: 220px;
+		height: 1800px;
+		border: 2px solid black;
+		margin-left: 2px;
+		margin-top: 2px;
+		margin-right: 2px;
+		margin-bottom: 2px;
+
+
+
+		display: flex;
+		list-style-type: column;}
+
+
+
+	li {
+		height: 100px;
+		border: 1px solid black;
+		width: 100px;
+		border-radius: 100%;
+}
